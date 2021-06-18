@@ -1,3 +1,7 @@
+// -----------------------------------------------
+
+// HEADER HOMEPAGE
+
 header {
     .header--logo{
         width: 100%;
@@ -18,7 +22,7 @@ header {
                     border: 1px transparent black;
                     border-radius: 10px;
                     padding: 10px;
-                    background-color: rgb(173, 173, 173);
+                    background-color: $color-nav;
                     transition: 0.7s;
                     &:hover{
                         background-color: $color-logo;
@@ -29,3 +33,5 @@ header {
         }
     }
 }
+
+// -----------------------------------------------

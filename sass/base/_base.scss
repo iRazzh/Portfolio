@@ -1,9 +1,11 @@
+// ALL IMPORTANTS COLORS 
+
+$color-logo: rgb(77, 92, 254);
+$color-bg: rgb(224, 224, 224);
+$color-nav: rgb(173, 173, 173);
+
 body, html{
     margin: 0;
     padding: 0;
-    background-color: rgb(224, 224, 224);
+    background-color: $color-bg;
 }
-
-// ALL IMPORTANTS COLORS 
-
-$color-logo: rgb(77, 92, 254)

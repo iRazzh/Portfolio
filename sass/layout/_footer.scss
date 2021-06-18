@@ -1,9 +1,18 @@
+// -----------------------------------------------
+
+// FOOTER HOMEPAGE
+
 footer{
-    background-color: rgb(177, 177, 177);
+    background-color: $color-nav;
     padding: 1rem 0;
     padding-left: 1rem;
-    p{
-        font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    .footer--mail{
+        width: 100%;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: black;
     }
     .media__icon{
         margin-right: 2rem;
@@ -20,3 +29,5 @@ footer{
         }
     }
 }
+
+// -----------------------------------------------
