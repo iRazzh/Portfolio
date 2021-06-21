@@ -1,6 +1,6 @@
 // -----------------------------------------------
-
 // HOMEPAGE 
+
 .homepage{
     margin: 0 15px;
 }
@@ -84,12 +84,17 @@
 }
 
 // -----------------------------------------------
+// ABOUT PAGE
+
+.allAbout{
+    margin: 0 15px;
+}
 
 .about{
     text-align: center;
     margin: 2rem 0 4rem;
     &--picture{
-        width: 80%;
+        width: 90%;
         height: 340px;
         margin: auto;
         &__profile{
@@ -103,7 +108,20 @@
     }
 }
 
+.experiences, .degree{
+    &--oc, &--ufcv, &--psy{
+        width: 100%;
+        img{
+            width: 60%;
+        }
+        h3{
+            margin: 0;
+        }
+    }
+}
+
 // -----------------------------------------------
+// PORTFOLIO PAGE
 
 .allProjects{
     margin: 0 15px;
