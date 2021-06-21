@@ -12,7 +12,6 @@
     }
     &--media{
         padding: 1rem 0;
-        box-shadow: 0 0px 0.3rem rgba(97, 97, 97, 0.5);
         &__icon{
             margin: 0 2rem;
             a{
@@ -32,22 +31,24 @@
 
 .projects{
     text-align: center;
-    h2{
-        font-size: 19px;
-        color: $color-logo;
-        margin: 2rem 0;
-    }
-    &--all{
-        border: 1px transparent black;
-        border-radius: 10px;
-        background-color: $color-nav;
-        padding: 10px;
-        text-decoration: none;
-        color: black;
-        font-size: 14px;
-        transition: 0.7s;
-        &:hover{
-            background-color: $color-logo;
+    &--title{
+        h2{
+            font-size: 19px;
+            color: $color-logo;
+            margin: 2rem 0;
+        }
+        a{  
+            border: 1px transparent black;
+            border-radius: 10px;
+            background-color: $color-nav;
+            padding: 10px;
+            font-size: 14px;
+            transition: 0.7s;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                background-color: $color-logo;
+            }
         }
     }
     &--presentation{
@@ -55,16 +56,11 @@
         flex-wrap: wrap;
         margin-top: 2rem;
         &__cart{
-            width: 55%;
+            width: 90%;
             margin: 1rem auto;
-            border: 1px transparent black;
-            border-radius: 10px;
-            padding: 0.5rem;
-            background-color: $color-nav;
             &--img{
                 width: 100%;
-                height: 200px;
-                border-radius: 10px;
+                height: 270px;
             }
         }
     }

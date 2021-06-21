@@ -8,23 +8,27 @@ footer{
     padding-left: 1rem;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     .footer--mail{
         width: 100%;
         margin-bottom: 1rem;
         text-decoration: none;
         color: black;
     }
-    .media__icon{
-        margin-right: 2rem;
-        a{
-            text-decoration: none;
-            color: black;
-            i{
-                font-size: 1.5rem;
-                    transition: 0.7s;
-                    &:hover{
-                        color: $color-logo;
-                    }
+    .footer--media{
+        width: 100%;
+        .media__icon{
+            margin: 0 2rem;
+            a{
+                text-decoration: none;
+                color: black;
+                i{
+                    font-size: 1.5rem;
+                        transition: 0.7s;
+                        &:hover{
+                            color: $color-logo;
+                        }
+                }
             }
         }
     }
