@@ -4,82 +4,39 @@
 .homepage{
     margin: 0 15px;
 }
-
 .presentation{
-    padding-top: 0.5rem;
     margin-bottom: 2rem;
-    h1{
-        font-size: 20px;
-        color: $color-logo;
-    }
-    &--media{
-        text-align: center;
-        padding: 1rem 0;
-        &__icon{
-            margin: 0 2rem;
-            a{
-                text-decoration: none;
-                color: black;
-                i{
-                    font-size: 1.5rem;
-                    transition: 0.7s;
-                    &:hover{
-                        color: $color-logo;
-                    }
-                }
-            }
-        }
-    }
-}
-
-.projects{
-    text-align: center;
     &--title{
-        h2{
-            font-size: 19px;
-            color: $color-logo;
-            margin: 2rem 0;
-        }
-        a{  
-            border: 1px transparent black;
-            border-radius: 10px;
-            background-color: $color-nav;
-            padding: 10px;
-            font-size: 14px;
-            transition: 0.7s;
-            text-decoration: none;
-            color: black;
-            &:hover{
-                background-color: $color-logo;
-            }
-        }
+        font-size: 25px;
+        color: $color-nav;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 2rem;
     }
-    &--presentation{
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 2rem;
-        &__cart{
-            width: 100%;
-            margin: 1rem auto;
-            &--img{
-                width: 100%;
-                height: 270px;
-            }
-        }
+    &--p{
+        margin: 0;
+        margin-bottom: 1rem;
+        font-size: 17px;
     }
 }
-
-.meet{
-    text-align: center;
-    margin-bottom: 2rem;
-    h3{
-        font-size: 19px;
-        color: $color-logo;
-        margin: 2rem 0;
+.search{
+    background-color: #0513AB;
+    border-radius: 10px;
+    padding: 15px 20px;
+    &--title{
+        color: white;
+        margin: 0;
+        font-size: 29px;
     }
-    p{
-        width: 80%;
-        margin: auto;
+    &--p{
+        margin: 1.5rem 0;
+        color: white;
+        font-size: 18px;
+    }
+    &--detail{
+        margin: 0;
+        font-size: 17px;
+        color: white;
     }
 }
 
@@ -89,7 +46,6 @@
 .allAbout{
     margin: 0 15px;
 }
-
 .about{
     text-align: center;
     margin: 2rem 0 4rem;
@@ -107,7 +63,6 @@
         }
     }
 }
-
 .experiences, .degree{
     &--oc, &--ufcv, &--psy{
         width: 100%;
@@ -125,4 +80,44 @@
 
 .allProjects{
     margin: 0 15px;
+}
+.projects{
+    text-align: center;
+    &--info{
+        &__title{
+            font-size: 30px;
+            color: $color-nav;
+            margin: 2rem 0;
+        }
+        &__all{  
+            border: 1px transparent black;
+            border-radius: 10px;
+            background-color: $color-nav;
+            padding: 10px;
+            font-size: 14px;
+            transition: 0.7s;
+            text-decoration: none;
+            color: white;
+            &:hover{
+                background-color: $color-logo;
+            }
+        }
+    }
+    &--title{
+        font-size: 30px;
+        color: $color-nav;
+        margin: 1rem 0 0;
+    }
+    &--presentation{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        &__cart{
+            width: 100%;
+            &--img{
+                width: 100%;
+                height: 270px;
+            }
+        }
+    }
 }

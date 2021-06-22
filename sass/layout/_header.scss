@@ -3,13 +3,11 @@
 // HEADER HOMEPAGE
 
 header {
-    .header--logo{
-        width: 100%;
-    }
+    text-align: center;
     .header--nav{
         text-decoration: none;
         color: black;
-        margin-bottom: 2rem;
+        margin: 1rem 0;
         ul{
             display: flex;
             justify-content: space-evenly;
@@ -24,6 +22,8 @@ header {
                     padding: 10px;
                     background-color: $color-nav;
                     transition: 0.7s;
+                    width: 100%;
+                    color: white;
                     &:hover{
                         background-color: $color-logo;
                     }
@@ -31,6 +31,9 @@ header {
             }
             
         }
+    }
+    .header--logo{
+        width: 90%;
     }
 }
 
