@@ -1,11 +1,18 @@
 // ALL IMPORTANTS COLORS 
 
 $color-logo: rgb(77, 92, 254);
-// $color-bg: rgb(224, 224, 224);
 $color-nav: #0045F8;
 
 body, html{
     margin: 0;
     padding: 0;
-    // background-color: $color-bg;
+    font-family: 'GothamPro', sans-serif;
 }
+
+// Media Queries 
+
+// $width-mobileM: 321px;
+// $width-mobileL: 376px;
+$width-tablet: 426px; 
+$width-laptop: 769px;
+$width-desk: 1025px;
