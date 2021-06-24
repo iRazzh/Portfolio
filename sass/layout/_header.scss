@@ -39,4 +39,53 @@ header {
     }
 }
 
+// MEDIA QUERIES 
+
+//Tablet
+@media screen and (min-width: $width-tablet){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 3rem;
+        .header--nav{
+            order: 2;
+            width: 100%;
+            ul{
+                justify-content: space-evenly;
+            }
+        }
+        .header--logo{
+            width: 80%;
+        }
+    }
+}
+
+//Laptop
+@media screen and (min-width: $width-laptop){
+    header{
+        .header--redirection{
+            width: 100%;
+            .header--logo{
+                width: 70%;
+            }
+        }
+    }
+}
+
+//Desk
+@media screen and (min-width: $width-desk){
+    header{
+        margin: 0 10rem;
+        .header--nav{
+            ul{
+                justify-content: space-evenly;
+            }
+        }
+        .header--redirection{
+            .header--logo{
+                width: 60%;
+            }
+        }
+    }
+}
 // -----------------------------------------------
