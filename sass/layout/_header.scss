@@ -77,6 +77,8 @@ header {
     header{
         margin: 0 10rem;
         .header--nav{
+            width: 80%;
+            margin: auto;
             ul{
                 justify-content: space-evenly;
             }
