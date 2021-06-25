@@ -111,9 +111,21 @@
         margin-top: 2rem;
         &__cart{
             width: 100%;
+            position: relative;
             &--img{
                 width: 100%;
                 height: 270px;
+            }
+            &--pages{
+                color: green;
+                background-color: #99E2D0;
+                text-align: center;
+                padding: 0.5rem;
+                position: absolute;
+                bottom: 13rem;
+                left: 2rem;
+                border-radius: 5px;
+                font-size: 14px;
             }
         }
     }
@@ -129,6 +141,9 @@
                 &--img{
                     width: 70%;
                 }
+                &--pages{
+                    left: 9rem;
+                }
             }
         }
     }
@@ -143,6 +158,9 @@
                 width: 50%;
                 &--img{
                     width: 100%;
+                }
+                &--pages{
+                    left: 3rem;
                 }
             }
         }
@@ -160,6 +178,19 @@
                 width: 30%;
                 &--img{
                     width: 90%;
+                }
+            }
+        }
+    }
+}
+
+//Desk L
+@media screen and (min-width: 1441px){
+    .projects{
+        &--presentation{
+            &__cart{
+                &--pages{
+                    left: 4.5rem;
                 }
             }
         }
