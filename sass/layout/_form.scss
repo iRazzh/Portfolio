@@ -96,7 +96,7 @@
             text-decoration: none;
             color: white;
             &:hover{
-                background-color: $color-logo;
+                background-color: $color-hover;
             }
         }
     }
@@ -115,6 +115,10 @@
             &--img{
                 width: 100%;
                 height: 270px;
+                &:hover{
+                    transition: 0.5s;
+                    transform: scale(1.05);
+                }
             }
             &--pages{
                 color: green;
@@ -160,7 +164,7 @@
                     width: 100%;
                 }
                 &--pages{
-                    left: 3rem;
+                    left: 2.5rem;
                 }
             }
         }
@@ -178,6 +182,9 @@
                 width: 30%;
                 &--img{
                     width: 90%;
+                }
+                &--pages{
+                    left: 3rem;
                 }
             }
         }
