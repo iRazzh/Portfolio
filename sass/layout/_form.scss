@@ -6,11 +6,11 @@
 }
 .presentation{
     margin-bottom: 2rem;
+    padding: 15px 20px;
     &--title{
         font-size: 25px;
         color: $color-nav;
         margin: 0;
-        text-align: center;
         margin-bottom: 2rem;
     }
     &--p{
@@ -72,6 +72,13 @@
     }
 }
 
+// Desk L
+@media screen and (min-width: 1441px){
+    .homepage{
+        margin: 0 18rem;
+    }
+}
+
 // -----------------------------------------------
 // PORTFOLIO PAGE
 
@@ -84,7 +91,7 @@
         &__title{
             font-size: 30px;
             color: $color-nav;
-            margin: 2rem 0;
+            margin: 4rem 0;
         }
         &__all{  
             border: 1px transparent black;
@@ -179,12 +186,12 @@
     .projects{
         &--presentation{
             &__cart{
-                width: 30%;
+                width: 40%;
                 &--img{
                     width: 90%;
                 }
                 &--pages{
-                    left: 3rem;
+                    left: 3.5rem;
                 }
             }
         }
@@ -194,8 +201,13 @@
 //Desk L
 @media screen and (min-width: 1441px){
     .projects{
+        margin: auto;
         &--presentation{
             &__cart{
+                width: 34%;
+                &--img{
+                    width: 90%;
+                }
                 &--pages{
                     left: 4.5rem;
                 }
